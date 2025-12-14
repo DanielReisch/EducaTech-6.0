@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducaTech</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+    <aside class="sidebar" id="sidebar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/Logoprincipal.png" width="30%" alt="Logo">
+            </a>
+        </div>
+
+        <ul class="menu">
+        <li><a href="index.html"><i class="icon">🏠</i> Início</a></li>
+        <li data-section="conteudos salvos"><a href="#"><i class="icon">📑</i> Conteúdos Salvos</a></li>
+        <li data-section="medalhas"><a href="#"><i class="icon">🏅</i> Medalhas</a></li>
+        <li data-section="conteudos baixados"><a href="#"><i class="icon">⬇️</i> Conteúdos Baixados</a></li>
+        <li data-section="blocos de anotacoes"><a href="#"><i class="icon">📝</i> Blocos de Anotações</a></li>
+        <li data-section="certificados"><a href="#"><i class="icon">👨‍🎓</i> Certificados</a></li>
+        <li data-section="calendario"><a href="#"><i class="icon">📅</i> Calendário</a></li>
+    
+        <li data-section="artigos"><a href="#"><i class="icon">📄</i> Artigos</a></li>
+        <li data-section="podcasts"><a href="#"><i class="icon">🎧</i> Podcasts</a></li>
+        <li data-section="configuracoes"><a href="#"><i class="icon">⚙️</i> Configurações</a></li>
+    
+        <li data-section="suporte"><a href="#"><i class="icon">💬</i> Suporte</a></li>
+        <li data-section="parceiros"><a href="#"><i class="icon">🤝</i> Nossos Parceiros</a></li>
+    </ul>
+    </aside></aside>
+
+    <main class="main-content">
+        <header class="topbar">
+            <button id="hamburger" class="hamburger">☰</button>
+            <div class="search-bar">
+                <input type="text" id="pesquisa" placeholder="PESQUISE AQUI">
+                <i class="icon" id="btnBuscar">🔍</i>
+            </div>
+
+            <a href="#" id="loginBtn" class="login-link">
+                <span class="user-icon">👤</span> Login
+            </a>
+        </header>
+
+        <section class="welcome" id="welcome-section">
+            <div class="text">
+                <img src="img/Logoprincipal.png" alt="Logo de Fundo" class="background-logo">
+                <h2>Bem-vindo(a)!</h2>
+                <p>Nosso projeto nasceu com um objetivo simples: tornar a educação em tecnologia acessível a todos.
+                   Sabemos que nem sempre é fácil aprender, seja por falta de tempo, recursos ou oportunidades e é por
+                   isso que criamos este espaço.</p>
+
+                <p>Aqui você encontra conteúdos gratuitos e práticos, explicados de forma clara, mesmo para quem está
+                   começando do zero. Nosso objetivo é ajudar você a desenvolver habilidades, abrir portas no mercado de 
+                   trabalho e mostrar que aprender pode ser transformador.</p>
+
+                <p>Acreditamos que conhecimento é para ser compartilhado. Cada passo no aprendizado é uma conquista, 
+                   e este site é o seu convite para explorar, aprender e crescer com a gente.</p>
+            </div>
+            <div class="image">
+                <img src="img/estudantes.png" alt="Ilustração dos estudantes">
+            </div>
+        </section>
+
+        <section class="cards">
+            <section id="content" class="content-area">
+                <div class="cards-container">
+                    <div class="card" data-section="cursos"><i class="icon">📚</i><span>Cursos</span></div>
+                    <div class="card" data-section="artigos"><i class="icon">📄</i><span>Artigos</span></div>
+                    <div class="card" data-section="biblioteca"><i class="icon">📘</i><span>Biblioteca</span></div>
+                    <div class="card" data-section="podcasts"><i class="icon">🎧</i><span>Podcasts</span></div>
+                    <div class="card" data-section="ajuda"><i class="icon">ℹ️</i><span>Ajuda</span></div>
+                </div>
+            </section>
+        <section id="page-container" class="page-container" style="display:none; padding:30px;">
+        </section>
+        
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+
+<script src="./assets/scripts/app.js"></script>
+
+    <script src="./assets/scripts/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <script src="./assets/scripts/app.js"></script>
+
+</body>
+
+</html>
