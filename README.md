@@ -1,0 +1,1 @@
+# EducaTech-6.0
