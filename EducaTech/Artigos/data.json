@@ -1,0 +1,93 @@
+{
+  "artigos": [
+    { 
+      "id": 998, 
+      "title": "Algoritmos e Lógica de Programação", 
+      "author": "Por Marco Souza", 
+      "category": "Programação", 
+      "popularity": 5, 
+      "isFixed": true,
+      "isWide": false,
+      "bgColor": "#7e46ec"
+    },
+    { 
+      "id": 999, 
+      "title": "Inovação e tecnologia: aprendendo com países inovadores", 
+      "author": "Por Taise Fátima Mattei", 
+      "category": "Inovação", 
+      "popularity": 4, 
+      "isFixed": true,
+      "isWide": true,
+      "bgColor": "#a0d0e8" 
+    },
+    { 
+      "id": 1, 
+      "title": "O uso da inteligência artificial como ferramenta para educação no Brasil", 
+      "author": "Por Luiz André Ferreira", 
+      "category": "Inteligência Artificial", 
+      "popularity": 4, 
+      "isFixed": false,
+      "isWide": false,
+      "bgColor": "#ffcc80" 
+    },
+    { 
+      "id": 2, 
+      "title": "Brazil Evolves Smart City Technology To Combat Climate Change", 
+      "author": "Por Angelica Mari de Oliveira", 
+      "category": "Tecnologia", 
+      "popularity": 5, 
+      "isFixed": false,
+      "isWide": false,
+      "bgColor": "#80cbc4" 
+    },
+    { 
+      "id": 3, 
+      "title": "Desafios e Oportunidades no Ensino à Distância", 
+      "author": "Por Ana Clara Guedes", 
+      "category": "Educação", 
+      "popularity": 3, 
+      "isFixed": false,
+      "isWide": false,
+      "bgColor": "#e6ee9c" 
+    },
+    { 
+      "id": 4, 
+      "title": "Segurança de Dados: O Novo Ouro Digital", 
+      "author": "Por João Vitor Martins", 
+      "category": "Segurança", 
+      "popularity": 5, 
+      "isFixed": false,
+      "isWide": false,
+      "bgColor": "#ffab91" 
+    },
+    { 
+      "id": 5, 
+      "title": "O Impacto do 5G na Indústria 4.0", 
+      "author": "Por Camila Ribeiro", 
+      "category": "Tecnologia", 
+      "popularity": 4, 
+      "isFixed": false,
+      "isWide": false,
+      "bgColor": "#b39ddb" 
+    },
+    { 
+      "id": 6, 
+      "title": "Liderança e Inovação na Era Digital", 
+      "author": "Por Ricardo Almeida", 
+      "category": "Carreira", 
+      "popularity": 2, 
+      "isFixed": false,
+      "isWide": false,
+      "bgColor": "#81d4fa" 
+    }
+  ],
+  "mais_lidos": [
+    { "title": "A interferência da IA", "author": "Por Paulo Isnard" },
+    { "title": "Inteligência artificial generativa e a desinformação no Brasil", "author": "Por Pollyany Annenberg" },
+    { "title": "A segurança da informação para empresas no Brasil", "author": "Por Kalleb Ribeiro Machado" }
+  ],
+  "localStorage_schema": {
+    "articlesData": "Array de artigos com id, title, author, category, popularity, isFixed, isWide, bgColor",
+    "articleViewHistory": "Array de IDs de artigos visualizados pelo usuário"
+  }
+}

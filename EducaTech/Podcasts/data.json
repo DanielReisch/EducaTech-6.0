@@ -1,0 +1,98 @@
+{
+  "podcasts": [
+    {
+      "id": 1,
+      "title": "O Futuro da Inteligência Artificial",
+      "host": "Ana Paula Santos",
+      "duration": "45 min",
+      "category": "Tecnologia",
+      "description": "Uma discussão profunda sobre como a IA está transformando diversos setores.",
+      "bgColor": "#7e46ec",
+      "episodeNumber": 1
+    },
+    {
+      "id": 2,
+      "title": "Carreira em Tech: Por Onde Começar",
+      "host": "Carlos Eduardo",
+      "duration": "38 min",
+      "category": "Carreira",
+      "description": "Dicas práticas para quem está iniciando na área de tecnologia.",
+      "bgColor": "#4a90e2",
+      "episodeNumber": 2
+    },
+    {
+      "id": 3,
+      "title": "Cibersegurança para Iniciantes",
+      "host": "Mariana Costa",
+      "duration": "52 min",
+      "category": "Segurança",
+      "description": "Conceitos básicos de segurança digital que todos devem conhecer.",
+      "bgColor": "#ff6b6b",
+      "episodeNumber": 3
+    },
+    {
+      "id": 4,
+      "title": "Cloud Computing Descomplicado",
+      "host": "Roberto Silva",
+      "duration": "41 min",
+      "category": "Infraestrutura",
+      "description": "Entenda de forma simples como funciona a computação em nuvem.",
+      "bgColor": "#80cbc4",
+      "episodeNumber": 4
+    },
+    {
+      "id": 5,
+      "title": "Programação Web Moderna",
+      "host": "Juliana Mendes",
+      "duration": "55 min",
+      "category": "Desenvolvimento",
+      "description": "As principais tecnologias e frameworks usados no desenvolvimento web.",
+      "bgColor": "#ffcc80",
+      "episodeNumber": 5
+    },
+    {
+      "id": 6,
+      "title": "Data Science na Prática",
+      "host": "Fernando Oliveira",
+      "duration": "48 min",
+      "category": "Dados",
+      "description": "Como empresas estão usando ciência de dados para tomar decisões.",
+      "bgColor": "#b39ddb",
+      "episodeNumber": 6
+    },
+    {
+      "id": 7,
+      "title": "UX Design: A Arte de Criar Experiências",
+      "host": "Patricia Lima",
+      "duration": "35 min",
+      "category": "Design",
+      "description": "Princípios fundamentais para criar interfaces centradas no usuário.",
+      "bgColor": "#f48fb1",
+      "episodeNumber": 7
+    },
+    {
+      "id": 8,
+      "title": "Metodologias Ágeis: Scrum e Kanban",
+      "host": "Diego Fernandes",
+      "duration": "42 min",
+      "category": "Gestão",
+      "description": "Como aplicar metodologias ágeis em projetos de tecnologia.",
+      "bgColor": "#a0d0e8",
+      "episodeNumber": 8
+    }
+  ],
+  "localStorage_schema": {
+    "podcastsData": "Array de podcasts com id, title, host, duration, category, description, bgColor, episodeNumber",
+    "playingPodcast": "ID do podcast em reprodução (número inteiro)"
+  },
+  "categorias_disponiveis": [
+    "Tecnologia",
+    "Carreira",
+    "Segurança",
+    "Infraestrutura",
+    "Desenvolvimento",
+    "Dados",
+    "Design",
+    "Gestão"
+  ]
+}
