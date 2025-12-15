@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EducaTech - Login</title>
+  <link rel="stylesheet" href="login.css">
+  <style>
+    #cadastroForm {
+      display: none; 
+    }
+  </style>
+</head>
+<body>
+  <div class="background">
+
+    <div class="side-image left">
+      <img src="img/menino.png" alt="Aluno estudando">
+    </div>
+
+    <div class="side-image right">
+      <img src="img/menina.png" alt="Aluna estudando">
+    </div>
+
+    <div class="login-container">
+      <div class="logo-area">
+        <a href="/index.html">
+        <img src="img/Logoprincipal.png" alt="Logo EducaTech" class="logo">
+        </a>
+        <h1>EducaTech</h1>
+        <p>Conectando você ao conhecimento!</p>
+      </div>
+
+      <p id="mensagemErro" style="color: red; margin-bottom: 10px; text-align: center;"></p>
+      <p id="mensagemSucesso" style="color: green; margin-bottom: 10px; text-align: center;"></p>
+
+      <form id="loginForm" class="form-area">
+        <h2>Acessar sua Conta</h2>
+        <div class="input-group">
+          <input type="text" id="login" placeholder="Digite seu usuário..." required> 
+          <input type="password" id="senha" placeholder="Digite sua senha..." required>
+        </div>
+
+        <button type="submit" class="btn-login">Entrar</button>
+
+        <div class="links">
+          <a href="#" class="link" id="linkCadastro">Crie uma conta</a> 
+          <a href="#" class="link">Esqueceu sua senha?</a>
+        </div>
+      </form>
+
+      <form id="cadastroForm" class="form-area" style="display: none;">
+        <h2>Criar uma Conta</h2>
+        <div class="input-group">
+          <input type="text" id="cadastroNome" placeholder="Seu Nome Completo" required>
+          <input type="email" id="cadastroEmail" placeholder="Seu Email" required>
+          <input type="text" id="cadastroLogin" placeholder="Login Desejado" required> 
+          <input type="password" id="cadastroSenha" placeholder="Senha" required>
+        </div>
+
+        <button type="submit" class="btn-login">Cadastrar</button>
+
+        <div class="links">
+          <a href="#" class="link" id="linkLogin">Já tenho conta. Voltar ao Login</a>
+        </div>
+      </form>
+      
+    </div>
+  </div>
+
+  <script src="./assets/scripts/login.js"></script>
+</body>
+</html>

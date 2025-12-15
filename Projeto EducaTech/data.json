@@ -1,0 +1,145 @@
+{
+  "sections": [
+    {
+      "id": "cursos",
+      "titulo": "Nossos Cursos",
+      "conteudo": "Aprenda com nossos cursos gratuitos e práticos, criados para ajudar você a desenvolver habilidades em tecnologia e ampliar suas oportunidades."
+    },
+    {
+      "id": "artigos",
+      "titulo": "Artigos e Leituras",
+      "conteudo": "Aprofunde seus conhecimentos com textos explicativos e artigos sobre programação, inovação e o mercado de tecnologia."
+    },
+    {
+      "id": "biblioteca",
+      "titulo": "Biblioteca Digital",
+      "conteudo": "Explore uma seleção de materiais, livros digitais e PDFs gratuitos voltados à área da tecnologia e desenvolvimento pessoal."
+    },
+    {
+      "id": "podcasts",
+      "titulo": "Podcasts",
+      "conteudo": "Ouça conversas com especialistas da área, entrevistas e histórias inspiradoras sobre o mundo da tecnologia e da educação digital."
+    },
+    {
+      "id": "ajuda",
+      "titulo": "Central de Ajuda",
+      "conteudo": "Precisa de suporte? Consulte nossas perguntas frequentes ou entre em contato com a equipe do EducaTech."
+    },
+    {
+      "id": "conteudos-salvos",
+      "titulo": "Conteúdos Salvos",
+      "conteudo": "Aqui você encontrará todos os conteúdos que salvou para acessar mais tarde."
+    },
+    {
+      "id": "medalhas",
+      "titulo": "Minhas Medalhas",
+      "conteudo": "Veja todas as suas conquistas e acompanhe seu progresso em cada curso e atividade."
+    },
+    {
+      "id": "conteudos-baixados",
+      "titulo": "Conteúdos Baixados",
+      "conteudo": "Esta seção mostra todos os materiais que você baixou e pode acessar offline."
+    },
+    {
+      "id": "blocos-anotacoes",
+      "titulo": "Blocos de Anotações",
+      "conteudo": "Crie e gerencie suas anotações sobre os cursos e artigos que está estudando."
+    },
+    {
+      "id": "certificados",
+      "titulo": "Certificados",
+      "conteudo": "Visualize e baixe os certificados dos cursos que você concluiu com sucesso."
+    },
+
+    {
+      "id": "calendario",
+      "titulo": "Calendário de Estudos",
+      "conteudo": "Gerencie seus horários e eventos de estudo com um calendário completo e interativo."
+    },
+
+    {
+      "id": "configuracoes",
+      "titulo": "Configurações da Conta",
+      "conteudo": "Ajuste preferências, personalize o tema e gerencie seus dados de perfil."
+    },
+    {
+      "id": "suporte",
+      "titulo": "Central de Suporte",
+      "conteudo": "Fale com nossa equipe ou tire dúvidas sobre o uso da plataforma."
+    },
+    {
+      "id": "nossos-parceiros",
+      "titulo": "Nossos Parceiros",
+      "conteudo": "Conheça as empresas e instituições que apoiam o EducaTech na missão de tornar a tecnologia acessível para todos."
+    }
+  ],
+
+  "cursos": [
+    {
+      "id": "programacao-para-iniciantes",
+      "titulo": "Programação para Iniciantes",
+      "nivel": "Iniciante",
+      "categoria": "Programação",
+      "imagem": "img/programacaoiniciante.png",
+      "lessons": [
+        { "id": "p1-a1", "titulo": "O que é uma linguagem de programação?", "youtubeId": "PmefpISZ7Ew", "durationSeconds": 300 },
+        { "id": "p1-a2", "titulo": "Hora de programar", "youtubeId": "dCVy_qNmpJA", "durationSeconds": 250 },
+        { "id": "p1-a3", "titulo": "O que é um algoritmo?", "youtubeId": "yTKiRkCi0Bg", "durationSeconds": 200 }
+      ]
+    },
+    {
+      "id": "logica-de-programacao",
+      "titulo": "Lógica de Programação",
+      "nivel": "Iniciante",
+      "categoria": "Programação",
+      "imagem": "img/logicaprogramacao.png",
+      "lessons": [
+        { "id": "lp-a1", "titulo": "Lógica de Programação do Zero", "youtubeId": "JyqqlwZZkSc", "durationSeconds": 420 },
+        { "id": "lp-a2", "titulo": "Introdução à Lógica de Programação", "youtubeId": "nIPOIDQ4KjY", "durationSeconds": 540 }
+      ]
+    },
+    {
+      "id": "dominando-office",
+      "titulo": "Dominando o Pacote Office",
+      "nivel": "Intermediário",
+      "categoria": "Produtividade",
+      "imagem": "img/dominandooffice.png",
+      "lessons": [
+        { "id": "do-a1", "titulo": "Pacote Office Básico", "youtubeId": "_1ls9OeBIvU", "durationSeconds": 700 }
+      ]
+    }
+  ],
+
+  "eventosCalendario": [
+    {
+      "id": "ev1",
+      "data": "2025-02-05",
+      "titulo": "Revisão de Lógica",
+      "descricao": "Revisão geral para reforçar fluxogramas e condicionais.",
+      "tipo": "estudo",
+      "cor": "#7b4fff",
+      "hora": "14:00",
+      "recorrencia": "nenhuma"
+    },
+    {
+      "id": "ev2",
+      "data": "2025-02-10",
+      "titulo": "Prova de Programação",
+      "descricao": "Avaliação prática sobre variáveis e estruturas.",
+      "tipo": "prova",
+      "cor": "#ff6b6b",
+      "hora": "09:30",
+      "recorrencia": "nenhuma"
+    },
+    {
+      "id": "ev3",
+      "data": "2025-02-15",
+      "titulo": "Entrega do Projeto Office",
+      "descricao": "Submissão obrigatória do projeto final.",
+      "tipo": "trabalho",
+      "cor": "#00a8ff",
+      "hora": "23:59",
+      "recorrencia": "nenhuma"
+    }
+  ]
+}
